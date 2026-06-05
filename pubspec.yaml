@@ -1,0 +1,49 @@
+name: university_erp_ai
+description: AI-Powered Voice-Enabled University ERP Dashboard
+publish_to: none
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State management
+  provider: ^6.1.2
+
+  # Navigation
+  go_router: ^13.2.0
+
+  # HTTP client
+  http: ^1.2.1
+
+  # Voice input
+  speech_to_text: 7.4.0
+
+  # Text to speech
+  flutter_tts: ^3.8.5
+
+  # Secure storage
+  flutter_secure_storage: ^9.0.0
+
+  # Charts
+  fl_chart: ^0.68.0
+
+  # Loading skeleton
+  shimmer: ^3.0.0
+
+  # Typing animation
+  animated_text_kit: ^4.2.2
+
+  # UUID for chat message IDs
+  uuid: ^4.3.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
